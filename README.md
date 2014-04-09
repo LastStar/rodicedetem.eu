@@ -24,4 +24,6 @@ data článků v následující struktuře:
     Pokud se článek maže (je jich moc na stránce, je chybný, informace již nejsou aktuální). Stačí pouze vymazat od pomlčky před ním, těsně po pomlčku před dalším článkem.
 ```
 
+*Text vzorového článku je návodem jak na to!*
+
 
