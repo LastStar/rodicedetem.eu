@@ -3,22 +3,22 @@ title: 'Spolek Rodiče dětem při MŠ Jizerka - Kontakt'
 ---
 menu
   div
-    a href='/' Novinky
+    = link_to 'Novinky', '/'
   div Kontakt
 
 #contact
   div class='vcard'
     .row
-      .fn
+      .fn.org
         h2 Rodiče dětem při MŠ Jizerka
     .row
       .label Web:
-      .fn
-        a.fn.org href='http://www.rodicedetem.eu/' www.rodicedetem.eu
+      .url
+        = link_to 'www.rodicedetem.eu', 'http://www.rodicedetem.eu/'
     .row
       .label Email:
       .email
-        a.email href='mailto:info@wrabec.cz' rodicedetem@gmail.com
+        = link_to 'rodicedetem@gmail.com', 'mailto:info@wrabec.cz'
     .row
       .label Adresa:
       .adr
