@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Sweet oh sweet man
-gem "middleman"
+gem "middleman", "~>3.3"
 
 # Building blocks
 gem 'slim'
