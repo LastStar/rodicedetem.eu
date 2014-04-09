@@ -2,8 +2,7 @@
   font-family: "Gloriola", "Helvetica Neue", Helvetica, Arial, sans-serif;;
 }
 
-@mixin page-width {
-  @include outer-container;
+@mixin normal-pad {
+  @include pad(0.33em 1em);
 }
-
 

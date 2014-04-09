@@ -6,7 +6,7 @@ body {
 }
 
 #container {
-  @include page-width;
+  @include outer-container;
   background-color: $white;
   color: $dark-pink;
 
@@ -47,13 +47,13 @@ body {
 
       img {
         @include span-columns(4 of 4);
-        @include pad(0.33em 1em);
+        @include normal-pad;
       }
     }
   }
 
   & > div {
-    @include pad(1em);
+    @include normal-pad;
   }
 
   #articles {
@@ -110,7 +110,7 @@ body {
     border-bottom: golden-ratio(1em, -1) solid $pink;
 
     p {
-      @include pad(1em);
+      @include normal-pad;
       color: $dark-pink;
       text-align: center;
       font-size: golden-ratio(1em, -1);
