@@ -1,0 +1,107 @@
+body {
+  @include gloriola;
+  background-color: $grey;
+  font-size: 16px;
+  min-height: 64em;
+}
+
+a {
+  font-weight: bold;
+  color: $pink;
+}
+
+menu {
+  @include span-columns(4);
+  margin: 1em 0;
+  padding: 0;
+
+  & > div {
+    &:first-child {
+      @include shift(1);
+    }
+
+    @include span-columns(1 of 4);
+    text-align: center;
+    color: $dark-pink;
+  }
+}
+
+#container {
+  @include page-width;
+  background-color: $white;
+  color: $dark-pink;
+
+  h1 {
+    text-indent: -10000px;
+    background: url("/assets/images/Logo.png") no-repeat center;
+    height: 322px;
+    width: 376px;
+    margin: 0.5em 1em;
+
+  }
+
+  & > div {
+    @include pad(1em);
+  }
+
+  #articles {
+    .article {
+      h2 {
+        @include gloriola;
+        margin-bottom: 1em;
+        font-size: 1em;
+      }
+
+      .title, .date {
+        @include span-columns(2);
+      }
+
+      .date {
+        text-align: right;
+      }
+
+      .body {
+        @include span-columns(4);
+        padding-bottom: 3em;
+        color: $dark-pink;
+      }
+    }
+  }
+
+  #contact {
+    @include outer-container;
+    margin-bottom: 2em;
+
+    .row {
+      @include row;
+      @include span-columns(4);
+      margin-bottom: 0.5em;
+
+      h2 {
+        @include gloriola;
+        font-size: golden-ratio(1em, 1);
+      }
+
+      .label {
+        @include span-columns(1 of 4);
+        font-weight: bold;
+      }
+
+      .email, .adr {
+        @include span-columns(3 of 4);
+        @include omega;
+      }
+    }
+  }
+
+  footer {
+    p {
+      @include pad(1em);
+      color: $dark-pink;
+      text-align: center;
+      font-size: golden-ratio(1em, -1);
+    }
+  }
+}
+
+

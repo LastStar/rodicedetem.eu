@@ -1,0 +1,14 @@
+// colors
+$pink: #EB80C3;
+$white: lighten($pink, 28%);
+$grey: darken($white, 3%);
+$dark-pink: darken($pink, 70%);
+
+// dimensions
+$max-width: 28em;
+$grid-columns: 4;
+
+// fonts
+@include font-face(Gloriola, '../fonts/Gloriola_Light', normal);
+@include font-face(Gloriola, '../fonts/Gloriola_Bold', bold);
+

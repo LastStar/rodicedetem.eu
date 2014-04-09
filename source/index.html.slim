@@ -1,0 +1,17 @@
+---
+title: 'Spolek Rodiče dětem při MŠ Jizerka - Novinky'
+---
+menu
+  div Novinky
+  div
+    a href='/kontakt.html' Kontakt
+
+#articles
+  - data.articles.each do |article|
+    .article
+      .head
+        h2.title = article.title
+        h2.date = article.date
+      .body
+        - article.text.each_line do |line|
+          p = line

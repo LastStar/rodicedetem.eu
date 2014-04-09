@@ -1,0 +1,9 @@
+@mixin gloriola {
+  font-family: "Gloriola", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+
+@mixin page-width {
+  @include outer-container;
+}
+
+
