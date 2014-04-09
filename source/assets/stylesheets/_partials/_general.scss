@@ -5,39 +5,51 @@ body {
   min-height: 64em;
 }
 
-a {
-  font-weight: bold;
-  color: $pink;
-}
-
-menu {
-  @include span-columns(4);
-  margin: 1em 0;
-  padding: 0;
-
-  & > div {
-    &:first-child {
-      @include shift(1);
-    }
-
-    @include span-columns(1 of 4);
-    text-align: center;
-    color: $dark-pink;
-  }
-}
-
 #container {
   @include page-width;
   background-color: $white;
   color: $dark-pink;
 
-  h1 {
-    text-indent: -10000px;
-    background: url("/assets/images/Logo.png") no-repeat center;
-    height: 322px;
-    width: 376px;
-    margin: 0.5em 1em;
+  a {
+    font-weight: bold;
+    color: $pink;
+  }
 
+  menu {
+    @include span-columns(4);
+    margin: 1em 0;
+    padding: 0;
+
+    & > div {
+      &:first-child {
+        @include shift(1);
+      }
+
+      @include span-columns(1 of 4);
+      text-align: center;
+      color: $dark-pink;
+    }
+  }
+
+  header {
+    @include span-columns(4);
+    border-top: golden-ratio(1em, -1) solid $pink;
+    text-align: center;
+
+    h1 {
+      @include gloriola;
+      color: $pink;
+      font-size: golden-ratio(1em, 3);
+
+      span {
+        @include span-columns(4 of 4);
+      }
+
+      img {
+        @include span-columns(4 of 4);
+        @include pad(0.33em 1em);
+      }
+    }
   }
 
   & > div {
@@ -95,6 +107,8 @@ menu {
   }
 
   footer {
+    border-bottom: golden-ratio(1em, -1) solid $pink;
+
     p {
       @include pad(1em);
       color: $dark-pink;
