@@ -74,7 +74,7 @@ body {
     .article {
       @include span-columns(4 of 4);
       @include omega;
-      background: url('/assets/images/Divider.svg') no-repeat center bottom;
+      background: url('../images/Divider.svg') no-repeat center bottom;
       padding-bottom: 3em;
       margin-bottom: 1em;
 
