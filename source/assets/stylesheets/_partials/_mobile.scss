@@ -1,0 +1,7 @@
+$iphone-portrait: new-breakpoint(max-width 320px);
+
+@include media($iphone-portrait) {
+  body {
+    font-size: 12px;
+  }
+}
