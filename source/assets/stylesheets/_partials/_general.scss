@@ -52,12 +52,21 @@ body {
       span {
         @include span-columns(4 of 4);
         @include omega;
+
+        &:first-child {
+          @include pad(0 0 1.25em 0);
+        }
+
+        &:last-child {
+          @include pad(1em 0 0 0);
+        }
+
       }
 
       img {
         @include span-columns(4 of 4);
         @include omega;
-        @include normal-pad;
+        @include pad(0 0.33em);
       }
     }
   }
