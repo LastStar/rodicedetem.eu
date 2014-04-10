@@ -10,19 +10,20 @@ menu
   div class='vcard'
     .row
       .fn.org
-        h2 Rodiče dětem při MŠ Jizerka
+        h2 = data.contact.title
     .row
       .label Web:
       .url
-        a href='http://www.rodicedetem.eu/' www.rodicedetem.eu
+        a href='http://#{data.contact.web}/' = data.contact.web
     .row
       .label Email:
       .email
-        a href='mailto:info@wrabec.cz' rodicedetem@gmail.com
+        a href='mailto:#{data.contact.email}' = data.contact.email
     .row
       .label Adresa:
       .adr
-        .street-address Husova 1200/63
-        span.locality Liberec&nbsp;
-        span.postal-code 46001
-        div class='country-name' Česká Republika
+        .street-address = data.contact.street
+        span.locality = data.contact.locality
+        | &nbsp;
+        span.postal-code = data.contact.zip_code
+        .country-name = data.contact.country
