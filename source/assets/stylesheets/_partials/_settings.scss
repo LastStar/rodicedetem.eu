@@ -10,5 +10,5 @@ $grid-columns: 4;
 
 // fonts
 @include font-face(Gloriola, '../fonts/Gloriola_Light', normal);
-@include font-face(Gloriola, '../fonts/Gloriola_Bold', bold);
+@include font-face(Gloriola, '../fonts/Gloriola_Semibold', bold);
 

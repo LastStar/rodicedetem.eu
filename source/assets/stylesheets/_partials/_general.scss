@@ -17,7 +17,9 @@ body {
 
   menu {
     @include span-columns(4);
-    margin: 1em 0;
+    @include pad(1em 0);
+    @include omega;
+    background-color: $pink;
     padding: 0;
 
     & > div {
@@ -28,25 +30,34 @@ body {
       @include span-columns(1 of 4);
       text-align: center;
       color: $dark-pink;
+      font-weight: bold;
+
+      a {
+        color: $white;
+      }
     }
   }
 
   header {
-    @include span-columns(4);
-    border-top: golden-ratio(1em, -1) solid $pink;
+    @include outer-container;
+
+    border-top: golden-ratio(1em, 1) solid $pink;
     text-align: center;
 
     h1 {
+      @include span-columns(4);
       @include gloriola;
       color: $pink;
       font-size: golden-ratio(1em, 3);
 
       span {
         @include span-columns(4 of 4);
+        @include omega;
       }
 
       img {
         @include span-columns(4 of 4);
+        @include omega;
         @include normal-pad;
       }
     }
@@ -57,15 +68,29 @@ body {
   }
 
   #articles {
+    @include span-columns(4);
+    @include omega;
+
     .article {
+      @include span-columns(4 of 4);
+      @include omega;
+      background: url('/assets/images/Divider.svg') no-repeat center bottom;
+      padding-bottom: 3em;
+      margin-bottom: 1em;
+
       h2 {
         @include gloriola;
         margin-bottom: 1em;
         font-size: 1em;
       }
 
-      .title, .date {
-        @include span-columns(2);
+      .head {
+        @include span-columns(4 of 4);
+        @include omega;
+
+        .title, .date {
+          @include span-columns(2 of 4);
+        }
       }
 
       .date {
@@ -73,8 +98,7 @@ body {
       }
 
       .body {
-        @include span-columns(4);
-        padding-bottom: 3em;
+        @include span-columns(4 of 4);
         color: $dark-pink;
       }
     }
@@ -107,13 +131,14 @@ body {
   }
 
   footer {
-    border-bottom: golden-ratio(1em, -1) solid $pink;
+    border-bottom: golden-ratio(1em, 1) solid $pink;
 
     p {
       @include normal-pad;
       color: $dark-pink;
       text-align: center;
       font-size: golden-ratio(1em, -1);
+      margin: 0;
     }
   }
 }
