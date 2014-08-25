@@ -122,8 +122,9 @@ body {
       padding-bottom: 3em;
       margin-bottom: 1em;
 
-
-
+      ol {
+        list-style-type: decimal;
+      }
       .head {
         @include span-columns(4 of 4);
         @include omega;
