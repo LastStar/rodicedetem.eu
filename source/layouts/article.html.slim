@@ -35,7 +35,16 @@ html.nojs
             img src='/assets/images/Logo.svg'
             span MŠ Jizerka
 
-      == yield
+      menu
+        div
+          a href='/index.html' Novinky
+        div
+          a href='/kontakt.html' Kontakt
+
+      #articles
+        article
+          h2 = current_page.data.title
+          == yield
 
       footer
         p &copy; 2014 Spolek Rodiče dětem při MŠ Jizerka, všechna práva vyhrazena
@@ -45,4 +54,4 @@ html.nojs
           | Svoboda a rozum
 
     = javascript_include_tag 'app'
-    = partial 'partials/google_analytics'
+
