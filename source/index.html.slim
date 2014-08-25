@@ -1,17 +1,37 @@
 ---
 title: 'Spolek Rodiče dětem při MŠ Jizerka - Novinky'
+pageable: true
+per_page: 5
 ---
 menu
   div Novinky
   div
-    a href='kontakt.html' Kontakt
+    a href='/kontakt.html' Kontakt
+
 
 #articles
-  - data.articles.each do |article|
-    .article
+  - if paginate && num_pages > 1
+    div.pages
+      = page_number
+      | . stránka&nbsp;
+      = page_number > 4 ? 'z&nbsp;' : 'ze&nbsp;'
+      = num_pages
+
+  - if prev_page
+    div.prev-page = link_to '&Larr; předchozí stránka', prev_page
+  - page_articles.each_with_index do |article, i|
+    article
       .head
-        h2.title = article.title
-        h2.date = article.date
+        h2.title
+          = link_to article.title, article
+        h2.date
+          = I18n::l(article.date.to_date, format: :long)
       .body
-        - article.text.each_line do |line|
-          p = line
+        = article.summary(250)
+      .link
+        = link_to 'více &hellip;', article
+
+  - if paginate
+    - if next_page
+       div.next-page = link_to 'další stránka &Rarr;', next_page
+

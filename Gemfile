@@ -1,16 +1,18 @@
 source 'https://rubygems.org'
 
 # Sweet oh sweet man
-gem "middleman", "~>3.3"
+gem 'middleman'
 
 # Building blocks
 gem 'slim'
-gem "bourbon"
-gem "neat"
-gem "bitters"
-gem "coffee-script"
+gem 'bourbon'
+gem 'neat'
+gem 'bitters'
+gem 'coffee-script'
+gem 'nokogiri'
 
 # Internal extensions
-gem "middleman-gh-pages" # GitHub Pages deployment
-gem "middleman-livereload"
-gem "middleman-minify-html"
+gem 'middleman-gh-pages' # GitHub Pages deployment
+gem 'middleman-livereload'
+gem 'middleman-minify-html'
+gem 'middleman-blog'

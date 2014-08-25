@@ -26,6 +26,14 @@ after_configuration do
   sprockets.append_path File.join "#{root}", @bower_config["directory"]
 end
 
+activate :blog do |blog|
+  blog.layout = 'article'
+  blog.paginate = true
+
+end
+
+activate :i18n, :langs => [:cs]
+
 ######################################################################
 # Development environment.
 ######################################################################
