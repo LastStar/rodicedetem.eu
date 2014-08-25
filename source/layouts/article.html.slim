@@ -28,11 +28,11 @@ html.nojs
         | to improve your experience.
 
     #container
-      header
+      header.article
         h1
           a href='/'
             span Rodiče dětem
-            img src='/assets/images/Logo.svg'
+            img src='/assets/images/Logo.svg' height='100px'
             span MŠ Jizerka
 
       menu
@@ -43,8 +43,13 @@ html.nojs
 
       #articles
         article
-          h2 = current_page.data.title
-          == yield
+          .head
+            h2.title
+              = current_article.title
+            h2.date
+              = I18n::l(current_article.date.to_date, format: :long)
+          .body
+            == yield
 
       footer
         p &copy; 2014 Spolek Rodiče dětem při MŠ Jizerka, všechna práva vyhrazena
