@@ -10,6 +10,17 @@ menu
 
 
 #articles
+  - if article = articles.detect { |a| a.data.featured }
+    article.featured
+      .head
+        h2.title
+          = link_to article.title, article
+        h2.date
+          = I18n::l(article.date.to_date, format: :long)
+      .body
+        = article.summary(250)
+      .link
+        = link_to 'více &hellip;', article
   - if paginate && num_pages > 1
     div.pages
       = page_number

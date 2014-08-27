@@ -125,6 +125,7 @@ body {
       ol {
         list-style-type: decimal;
       }
+
       .head {
         @include span-columns(4 of 4);
         @include omega;
@@ -160,12 +161,20 @@ body {
         text-align: right;
       }
 
+      &.featured {
+        background-color: $light-grey
+      }
     }
   }
 
   #contact {
     @include outer-container;
     margin-bottom: 2em;
+
+    .newsletter a {
+        @include gloriola;
+        font-size: golden-ratio(1em, 1);
+    }
 
     .row {
       @include row;
