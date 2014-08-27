@@ -2,4 +2,4 @@
 title: Odběr novinek emailem
 ---
 
-Nově je možné se do našeho emailového newsletter přihlásit přes [webový formulář](http://eepurl.com/UNTYr).
+Nově je možné se pro odběr novinek emailem přihlásit přes [webový formulář](http://eepurl.com/UNTYr).
