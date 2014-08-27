@@ -1,7 +1,7 @@
 body {
   @include gloriola;
   background-color: $grey;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 #container {
@@ -162,6 +162,7 @@ body {
       }
 
       &.featured {
+        background: url('../images/Divider.svg') repeat-x center bottom;
         background-color: $light-grey
       }
     }
@@ -204,6 +205,7 @@ body {
 
     p {
       @include normal-pad;
+      line-height: 1.5em;
       color: $dark-pink;
       text-align: center;
       font-size: golden-ratio(1em, -1);
