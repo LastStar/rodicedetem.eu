@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="51px" height="34px" viewBox="0 0 41 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <title>Divider</title>
-    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <description>Image under the article for dividing them</description>
     <defs>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="131.818997%" id="linearGradient-1">
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="131.818997%" id="linearGradient">
             <stop stop-color="#FFE1F4" offset="0%"></stop>
             <stop stop-color="#FAF3F8" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Divider" sketch:type="MSArtboardGroup" transform="translate(-8.000000, -8.000000)" fill="url(#linearGradient-1)">
+        <g id="Divider" sketch:type="MSArtboardGroup" transform="translate(-8.000000, -8.000000)" fill="url(#linearGradient)">
             <path d="M26.0446353,18.5670933 C26.0446353,18.5670933 25.8783914,17.5282228 25.2134159,16.7098338 C25.0085698,16.4577287 22.8871481,14.3470496 22.8871481,14.3470496 C22.8871481,14.3470496 23.2820615,13.8237237 23.0522454,13.5999555 C22.8592838,13.4120719 22.052159,13.5340343 21.902331,13.3881492 L20.954062,12.464835 C18.3455232,9.92494297 14.1223625,9.94192957 11.5268376,12.4973909 L11.3211043,12.6999485 C8.02996881,15.9402832 8.12082701,21.1083342 11.5142208,24.2383834 C11.5142208,24.2383834 21.0869276,33.0378762 23.1222142,35.0417469 C26.6995315,38.5638463 28.3124026,41.1632653 28.3124026,41.1632653 C28.3124026,41.1632653 32.9011606,35.1655249 35.5205375,32.5865798 C40.692914,27.4940427 45.354094,23.6241264 45.354094,23.6241264 C48.8520269,20.6001971 49.0157488,15.5181479 45.7213017,12.2745527 L44.7587292,11.3268381 C41.4635996,8.08257086 36.1606874,8.10941472 32.9004184,11.4020392 C32.9004184,11.4020392 31.2711467,13.0443053 29.4606999,14.8800485 C29.1496194,15.1954756 27.864964,15.234523 27.5408303,15.5640891 C27.3099362,15.7988529 28.0413197,16.3220998 27.808949,16.5589344" id="Path-7" sketch:type="MSShapeGroup" transform="translate(28.500000, 25.000000) scale(-1, 1) translate(-28.500000, -25.000000) "></path>
         </g>
     </g>
