@@ -7,24 +7,32 @@ LastStar.
 
 Na adrese http://github.com/LastStar/rodicedetem.eu vytvořit novou větev.
 Jméno větve ve formátu například rok-měsíc-den-nazev-bez-diakritiky
-(2014-08-29-clanek-o-behani). ![Vytváření větve](images/vytvoreni_vetve.png)
+(2014-08-29-clanek-o-behani).
+
+![Vytváření větve](images/vytvoreni_vetve.png)
 
 Po vytvoření větve kliknout v přehledu adresářů na `source`. Po přechodu do
 něj je možné vidět již existující články. Je možné si jeden otevřít v novém
 okně, kliknout na tlačítko RAW, pro referenci k formátu článku.
+
 ![Adresář source](images/adresar_source.png)
 
 ## Vytváření nového článku
 
-V adresáři source je v cestě vedle jeho jména `+`
-![Nový soubor](images/new_file.png), kliknutím na které je možné
+V adresáři source je v cestě vedle jeho jména `+` , kliknutím na které je možné
 vytvořit nový soubor.
 
-Po kliknutí se objeví formulář pro vytváření nového souboru
-![Formulář](images/new_file_form.png). Do jména (1) zadejte jméno souboru,
-které má stejný formát jako jméno jako jméno větve výše s příponou .markdown
-(2014-08-29-clanek-o-behani.markdown). Do obsahu (2) potom přímo obsah článku s
-názvem v hlavičce a textem pod hlavičkou. Příklad:
+![Nový soubor](images/new_file.png)
+
+Po kliknutí se objeví formulář pro vytváření nového souboru:
+
+![Formulář](images/new_file_form.png)
+
+Do jména (1) zadejte jméno souboru, které má stejný formát jako jméno jako
+jméno větve výše s příponou .markdown (2014-08-29-clanek-o-behani.markdown). Do
+obsahu (2) potom přímo obsah článku s názvem v hlavičce a textem pod hlavičkou.
+
+Příklad:
 
 ```
 ---
