@@ -5,14 +5,14 @@ LastStar.
 
 ## Nová větev a adresář source
 
-Na adrese http://github.com/LastStar/rodicedetem.eu vytvořit novou větev
-![Vytváření větve](images/vytvoreni_vetve.png). Jméno větve ve formátu
-například rok-měsíc-den-nazev-bez-diakritiky (2014-08-29-clanek-o-behani).
+Na adrese http://github.com/LastStar/rodicedetem.eu vytvořit novou větev.
+Jméno větve ve formátu například rok-měsíc-den-nazev-bez-diakritiky
+(2014-08-29-clanek-o-behani). ![Vytváření větve](images/vytvoreni_vetve.png)
 
-Po vytvoření větve kliknout v přehledu adresářů na `source`
-![Adresář source](images/adresar_source.png). Po přechodu do něj je možné vidět již
-existující články. Je možné si jeden otevřít v novém okně, kliknout na tlačítko
-RAW, pro referenci k formátu článku.
+Po vytvoření větve kliknout v přehledu adresářů na `source`. Po přechodu do
+něj je možné vidět již existující články. Je možné si jeden otevřít v novém
+okně, kliknout na tlačítko RAW, pro referenci k formátu článku.
+![Adresář source](images/adresar_source.png)
 
 ## Vytváření nového článku
 
