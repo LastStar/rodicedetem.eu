@@ -212,6 +212,39 @@ body {
       margin: 0;
     }
   }
+
+  #new-article {
+    @include normal-pad;
+    @include span-columns(4);
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    label {
+      @include span-columns(2 of 4);
+    }
+
+    a {
+      @include span-columns(2 of 4);
+      @include omega;
+    }
+
+
+
+    input {
+      @include gloriola;
+      @include span-columns(4 of 4);
+      font-weight: bold;
+    }
+
+    textarea {
+      @include gloriola;
+      @include span-columns(4 of 4);
+      height: 30em;
+    }
+  }
+
 }
 
 

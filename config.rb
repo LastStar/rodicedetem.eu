@@ -20,6 +20,8 @@ set :images_dir, 'assets/images'
 set :fonts_dir, 'assets/fonts'
 set :partials_dir, 'partials'
 
+page "/admin/*", :layout => "admin"
+
 after_configuration do
   # Add bower's directory to sprockets asset path.
   @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))

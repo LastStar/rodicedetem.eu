@@ -1,0 +1,17 @@
+---
+title: 'Vytváření nového článku'
+---
+
+form id='new-article'
+  h2 = current_page.data.title
+  label for='title'
+    | Název
+  a href='http://daringfireball.net/projects/markdown/syntax' Markdown návod
+  input type='text' name='title' placeholder='Krátký název článku'
+  label for='content'
+    | Obsah
+  textarea name='content' placeholder='Obsah článku formátovaný Markdown'
+
+  input type='submit' value='Vytvořit na GitHubu'
+
+
