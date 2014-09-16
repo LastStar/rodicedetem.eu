@@ -2,11 +2,15 @@
 title: 'Vytváření nového článku'
 ---
 
+
+header
+  h1 Rodiče dětem
+
 form id='new-article'
   h2 = current_page.data.title
   label for='title'
     | Název
-  a href='http://daringfireball.net/projects/markdown/syntax' Markdown návod
+  a target='_blank' href='http://daringfireball.net/projects/markdown/syntax' Markdown návod
   input type='text' name='title' placeholder='Krátký název článku'
   label for='content'
     | Obsah

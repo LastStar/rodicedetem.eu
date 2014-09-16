@@ -217,12 +217,18 @@ body {
     @include normal-pad;
     @include span-columns(4);
 
+    &>* {
+      background-color: $white;
+    }
+
     h2 {
       font-size: 1.5em;
+      text-align: center;
     }
 
     label {
-      @include span-columns(2 of 4);
+      display: none;
+
     }
 
     a {
