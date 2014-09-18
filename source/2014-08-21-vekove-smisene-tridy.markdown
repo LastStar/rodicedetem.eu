@@ -1,6 +1,5 @@
 ---
 title: Věkově smíšené třídy
-featured: true
 ---
 Vážení rodiče,
 
