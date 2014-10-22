@@ -1,5 +1,6 @@
 ---
 title: Podzimní setkávání
+featured: true
 ---
 <a href='/assets/images/dilnicky.png'>
   ![Podzimní setkávání](/assets/images/dilnicky_mini.png)
