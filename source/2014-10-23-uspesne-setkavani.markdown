@@ -1,6 +1,5 @@
 ---
 title: Úspěšné setkávání
-featured: true
 ---
 
 Včerejší odpoledne ve školce se vydařilo, rodiče i děti vyráběli koženková strašidýlka, burákové postavičky, průsvity na okna, fritáž na papírové sáčky, nebo tiskli linoryty na šáteček s podzimním motivem. Podívejte se na ilustrační video.
@@ -10,8 +9,8 @@ Rodiče přinesli spoustu dobrot, které děti snědly jako housenky :). Přines
 Děkujeme rodičům, kteří připravovali dílničky, ale i těm co se zúčastnili, také paní ředitelce a paním učitelkám za krásné odpoledne.
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
-<link  href="http://fotorama.s3.amazonaws.com/4.6.2/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
-<script src="http://fotorama.s3.amazonaws.com/4.6.2/fotorama.js"></script> <!-- 16 KB -->
+<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.js"></script> <!-- 16 KB -->
 
 <div class="fotorama" data-width="432" data-height="287" data-allowfullscreen="native">
   <img src="/assets/images/setkavani/thumbs/setkavani_467.JPG" data-full="/assets/images/setkavani/setkavani_467.JPG"/>
