@@ -7,6 +7,8 @@ menu
   div Novinky
   div
     a href='/kontakt.html' Kontakt
+  div
+    a href='/lesohratky.html' Lesohrátky
 
 
 #articles
@@ -17,7 +19,7 @@ menu
           = link_to article.title, article
         h2.date
           = I18n::l(article.date.to_date, format: :long)
-      .body
+      .bod
         = article.summary(250)
       .link
         = link_to 'více &hellip;', article

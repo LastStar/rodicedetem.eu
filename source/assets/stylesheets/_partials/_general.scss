@@ -15,18 +15,14 @@ body {
   }
 
   menu {
-    @include span-columns(4);
+    @include row;
     @include pad(1em 0);
     @include omega;
     background-color: $pink;
     padding: 0;
 
     & > div {
-      &:first-child {
-        @include shift(1);
-      }
-
-      @include span-columns(1 of 4);
+      @include span-columns(1);
       text-align: center;
       color: $dark-pink;
       font-weight: bold;
@@ -44,13 +40,13 @@ body {
     text-align: center;
 
     h1 {
-      @include span-columns(4);
+      @include row;
       @include gloriola;
       color: $pink;
       font-size: golden-ratio(1em, 3);
 
       span {
-        @include span-columns(4 of 4);
+        @include span-columns(3);
         @include omega;
 
         &:first-child {
@@ -64,7 +60,7 @@ body {
       }
 
       img {
-        @include span-columns(4 of 4);
+        @include span-columns(3);
         @include omega;
         @include pad(0 0.33em);
       }
@@ -112,11 +108,11 @@ body {
   }
 
   #articles {
-    @include span-columns(4);
+    @include row;
     @include omega;
 
     article {
-      @include span-columns(4 of 4);
+      @include span-columns(3);
       @include omega;
       background: url('../images/Divider.svg') no-repeat center bottom;
       padding-bottom: 3em;
@@ -127,11 +123,15 @@ body {
       }
 
       .head {
-        @include span-columns(4 of 4);
+        @include span-columns(3);
         @include omega;
 
-        .title, .date a {
-          @include span-columns(2 of 4);
+        .title {
+          @include span-columns(2 of 3);
+        }
+
+        .date {
+          @include span-columns(1 of 3);
         }
       }
 
@@ -140,7 +140,7 @@ body {
       }
 
       .body {
-        @include span-columns(4 of 4);
+        @include span-columns(3);
         color: $dark-pink;
 
       }
@@ -157,7 +157,7 @@ body {
 
       .link {
         @include span-columns(1);
-        @include shift(3);
+        @include shift(2);
         text-align: right;
       }
 
@@ -172,14 +172,16 @@ body {
     @include outer-container;
     margin-bottom: 2em;
 
-    .newsletter a {
-        @include gloriola;
-        font-size: golden-ratio(1em, 1);
+    .newsletter {
+        text-align: center;
+        a {
+          @include gloriola;
+          font-size: golden-ratio(1em, 1);
+        }
     }
 
     .row {
       @include row;
-      @include span-columns(4);
       margin-bottom: 0.5em;
 
       h2 {
@@ -188,19 +190,19 @@ body {
       }
 
       .label {
-        @include span-columns(1 of 4);
+        @include span-columns(1);
         font-weight: bold;
       }
 
       .email, .adr {
-        @include span-columns(3 of 4);
+        @include span-columns(2);
         @include omega;
       }
     }
   }
 
   footer {
-    @include span-columns(4);
+    @include row;
     border-bottom: golden-ratio(1em, 1) solid $pink;
 
     p {
