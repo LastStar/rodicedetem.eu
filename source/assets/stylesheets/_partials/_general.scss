@@ -97,7 +97,7 @@ body {
 
   .next-page {
     @include span-columns(2);
-    @include shift(2);
+    @include shift(1);
     text-align: right;
   }
 
@@ -164,6 +164,14 @@ body {
       &.featured {
         background: url('../images/Divider.svg') repeat-x center bottom;
         background-color: $light-grey;
+      }
+    }
+
+    table {
+      tr {
+        td:nth-child(2) {
+          width: 5em;
+        }
       }
     }
   }

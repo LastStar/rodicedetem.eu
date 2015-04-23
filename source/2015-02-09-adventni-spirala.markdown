@@ -1,6 +1,5 @@
 ---
 title: Adventní spirála
-featured: true
 ---
 
 Na rozloučenou před vánočními svátky nám děti zazpívaly krásné koledy na
