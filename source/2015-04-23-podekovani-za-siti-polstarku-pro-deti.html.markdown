@@ -8,4 +8,6 @@ Včera večer jsme za účasti sedmi rodičů ušili polštářky pro naše dět
 využijí ke hře a na cvičení. Ráda bych poděkovala všem rodičům, kteří se na
 šití podíleli ať fyzickou pomocí nebo finančně.
 
+![Hotové polštářky](/assets/images/polstarky.jpg)
+
 Věřím, že si polštářky naše děti užijí :).
