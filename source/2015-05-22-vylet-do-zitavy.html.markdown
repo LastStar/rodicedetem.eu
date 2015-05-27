@@ -1,7 +1,6 @@
 ---
 title: Výlet do Žitavy
 date: 2015-05-22
-featured: true
 ---
 
 Do Žitavské ZOO se vydáme již zítra dopoledne vlakem. Setkáme se ve vlaku,
