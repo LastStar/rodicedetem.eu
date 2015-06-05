@@ -1,7 +1,6 @@
 ---
 title: Výlet do Žitavského Tierparku
 date: 2015-05-27 12:55 UTC
-featured: true
 ---
 
 V sobotu jsme vyrazili do ZOO v Žitavě, kde nám naštěstí vysvitlo slunce. Tolik
