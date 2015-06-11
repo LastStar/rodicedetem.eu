@@ -1,8 +1,6 @@
 ---
 title: Skořicové krucánky
 date: 2015-06-05 08:27 UTC
-tags: recepty
-featured: true
 ---
 
 Recept od Jany Venkrbcové, který mnohé z nás zaujal na oslavě Dne dětí. Dobrou
