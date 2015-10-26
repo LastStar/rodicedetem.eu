@@ -2,7 +2,6 @@
 title: Trdelník
 date: 2015-06-11 08:59 UTC
 tags: recepty
-featured: true
 ---
 
 Recept od Hedviky Hruškové na trdelníky.
