@@ -1,8 +1,6 @@
 ---
 title: Do Žitavské ZOO místo do&nbsp;Motýlího domu
 date: 2015-04-23 08:50 UTC
-featured: true
-tags:
 ---
 
 Avizovaný výlet rodičů s dětmi se bude konat v sobotu 23.&nbsp;5. Na doporučení
