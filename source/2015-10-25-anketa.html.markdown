@@ -1,6 +1,5 @@
 ---
 title: Vánoce ve školce - anketa
-featured: true
 ---
 
 [Anketa](https://www.surveymonkey.com/r/HGWCNMK).
